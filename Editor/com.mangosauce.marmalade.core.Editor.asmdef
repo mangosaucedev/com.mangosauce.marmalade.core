@@ -1,0 +1,18 @@
+{
+    "name": "com.mangosauce.marmalade.core.Editor",
+    "rootNamespace": "Marmalade.Editors",
+    "references": [
+        "GUID:1fd9f2f4f0361bb43b5d64f4239bec77"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

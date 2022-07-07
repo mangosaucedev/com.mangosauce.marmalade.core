@@ -1,0 +1,23 @@
+{
+    "name": "com.mangosauce.marmalade.core",
+    "version": "0.0.1",
+    "displayName": "Marmalade Core Library",
+    "description": "The core assets and files for the Marmalade development kit.",
+    "unity": "2020.3",
+    "unityRelease": "33f1",
+    "dependencies": {},
+    "keywords": [
+        "mangosauce",
+        "marmalade"
+    ],
+    "author": {
+        "name": "Mangosauce",
+        "email": "mangosaucedev@gmail.com",
+        "url": "https://www.twitter.com/mangosaucedev"
+    },
+    "repository": {
+        "url": "https://github.com/mangosaucedev/com.mangosauce.marmalade.core",
+        "type": "git",
+        "revision": "a552e35be673464bb187e049420ae9ab"
+    }
+}
