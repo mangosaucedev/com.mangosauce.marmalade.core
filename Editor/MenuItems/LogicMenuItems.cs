@@ -20,6 +20,7 @@ namespace Marmalade.Editors
             GameObject root = CreateManager("Game Manager", Selection.activeTransform, typeof(GameManager));
             Transform parent = root.transform;
 
+            CreateManager("Assets", parent, typeof(Assets));
             CreateManager("Gamestate Machine", parent, typeof(GamestateMachine));
             CreateManager("Input Manager", parent, typeof(InputManager));
             CreateManager("Resources", parent, typeof(Resources));

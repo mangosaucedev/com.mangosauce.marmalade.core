@@ -5,7 +5,9 @@
     "description": "The core assets and files for the Marmalade development kit.",
     "unity": "2020.3",
     "unityRelease": "33f1",
-    "dependencies": {},
+    "dependencies": {
+        "com.unity.nuget.newtonsoft-json" : "3.0.2"
+    },
     "keywords": [
         "mangosauce",
         "marmalade"

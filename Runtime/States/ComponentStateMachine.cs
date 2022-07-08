@@ -9,7 +9,6 @@ namespace Marmalade
         where T : ComponentStateMachine<T, TState>
         where TState : IState<TState>
     {
-        protected Guid guid = Guid.NewGuid();
             
 #if UNITY_EDITOR
         [SerializeField] private string currentState;
@@ -20,8 +19,6 @@ namespace Marmalade
         private Dictionary<string, TState> statesByName = new Dictionary<string, TState>();
         private HashSet<Transition<TState>> transitions = new HashSet<Transition<TState>>();
         private HashSet<TransitionFromAny<TState>> transitionsFromAny = new HashSet<TransitionFromAny<TState>>();
-
-        public Guid Guid => guid;
 
         public TState State
         {
