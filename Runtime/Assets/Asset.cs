@@ -14,6 +14,8 @@ namespace Marmalade
 
         public bool Unpackable => false;
 
+        public Asset(T packedAsset) => this.packedAsset = packedAsset;
+
         public T Contents
         {
             get => packedAsset;
