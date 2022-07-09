@@ -6,6 +6,12 @@ namespace Marmalade
 {
     public interface IAsset
     {
+        string Name { get; set; }
 
+        string Path { get; set; }
+
+        bool Unpackable { get; }
+
+        void UnpackAssets();
     }
 }

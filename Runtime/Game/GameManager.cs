@@ -15,5 +15,9 @@ namespace Marmalade
 #if UNITY_WEBPLAYER
         private const string QUIT_URL = "http://google.com";
 #endif
+        protected override void Awake()
+        {
+            base.Awake();
+        }
     }
 }

@@ -6,6 +6,12 @@ namespace Marmalade.IO
 {
     public interface IAssetLoader
     {
-        public IEnumerator LoadAssets();
+        string Message { get; }
+
+        public bool LoadAssets();
+
+        public bool IsValid();
+
+        public float GetProgress();
     }
 }
