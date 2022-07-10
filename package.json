@@ -1,6 +1,6 @@
 {
     "name": "com.mangosauce.marmalade.core",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "displayName": "Marmalade Core Library",
     "description": "The core assets and files for the Marmalade development kit.",
     "unity": "2020.3",
